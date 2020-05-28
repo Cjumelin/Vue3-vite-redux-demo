@@ -1,12 +1,11 @@
 # # Vue3 + Vuejs/vite + Redux starter
-  ***
 
   ## Command
 
   #### Run it
   `yarn dev`
 
-  #### With debug the debug option
+  #### With the debug option
   `yarn debug`
 
   #### Build
