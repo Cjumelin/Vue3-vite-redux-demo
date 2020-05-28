@@ -1,17 +1,15 @@
 import {AnyAction, combineReducers} from 'redux';
-import {Restaurant} from "../../corelogic/models/restaurant";
+import {ThingModel} from "../../coreLogic/thing/thingModel";
 
-
-const data = (state: Restaurant[] = [], action: AnyAction) => {
-    if (action.type === 'RESTAURANTS_RETRIEVED')
+const data = (state: ThingModel[] = [], action: AnyAction) => {
+    if (action.type === 'THINGS_RETRIEVED')
         return action.payload;
     return state;
 };
 
 const fetching = (state: boolean = false, action: AnyAction) => {
-    return action.type === 'RETRIEVING_RESTAURANTS';
+    return action.type === 'RETRIEVING_THINGS';
 };
-
 
 export default combineReducers({
     data,

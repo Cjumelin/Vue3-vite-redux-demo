@@ -1,45 +1,49 @@
 {
-  "name": "wealcome-kid-eats-demo-prep",
-  "version": "0.1.0",
+  "author": "cjumelin@protonmail.com",
+  "name": "66days",
   "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "debug": "vite --debug",
+    "build": "vite build",
+    "test": "jest --watchAll",
+    "story": "cucumber-js -p default"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^25.1.3",
-    "@types/react-redux": "^7.1.7",
-    "@types/redux": "^3.6.0",
-    "@types/redux-thunk": "^2.1.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-redux": "^7.2.0",
-    "react-scripts": "3.4.0",
+    "@reduxjs/redux-devtools-extension-fork": "^0.0.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "typescript": "^3.8.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "rxjs": "^6.5.5",
+    "typescript": "^3.9.3",
+    "vite": "^0.15.3",
+    "vue": "^3.0.0-beta.10"
   },
   "devDependencies": {
-    "redux-devtools-extension": "^2.13.8"
+    "@vue/test-utils": "^2.0.0-alpha.6",
+    "vue-jest": "^3.0.5",
+    "ts-jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "@types/jest": "^25.2.3",
+    "@vue/compiler-sfc": "^3.0.0-beta.10",
+    "cucumber": "^6.0.5",
+    "cucumber-pretty": "^6.0.0",
+    "expect": "^25.1.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.ts$": "ts-jest",
+      ".*\\.(vue)$": "vue-jest"
+    },
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "testRegex": "(.(\\.|/)(test|spec))\\.(jsx?|tsx?)$"
   }
 }

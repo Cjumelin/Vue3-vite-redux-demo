@@ -1,8 +1,8 @@
-import {Restaurant} from "../corelogic/models/restaurant";
+import {ThingModel} from "../coreLogic/thing/thingModel";
 
 export interface AppState {
-    restaurants: {
-        data: Restaurant[];
-        fetching: boolean;
-    }
+    things: {
+        data: ThingModel[],
+        fetching: Boolean,
+    };
 }
