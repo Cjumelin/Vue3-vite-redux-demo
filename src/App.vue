@@ -14,7 +14,6 @@
       thingList
     },
     setup() {
-      console.log(storeProvider)
       storeProvider(initStore())
     },
   }
