@@ -1,7 +1,7 @@
 import {getThingsSelector} from "./selector";
 import {retrieveThings} from "../../useCases/thingsRetrieval";
-import {useDispatch, useSelector, useStore} from "../../store/storeGateway";
-import {onMounted, computed, ref} from 'vue';
+import {useDispatch, useSelector} from "../../store/vue3-redux/storeGateway";
+import {onMounted} from 'vue';
 
 export const fetchThingsList = () => {
     const dispatch = useDispatch();
