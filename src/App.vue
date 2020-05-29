@@ -6,7 +6,7 @@
 
 <script>
   import thingList from "./uiComponent/thingList/thingList.vue";
-  import {storeProvider} from "./store/vue3-redux/storeGateway";
+  import {storeProvider} from 'vue-redux-tools';
   import {initStore} from "./store/initStore";
 
   export default {
