@@ -17,18 +17,19 @@
     "rxjs": "^6.5.5",
     "typescript": "^3.9.3",
     "vite": "^0.15.3",
-    "vue": "^3.0.0-beta.10"
+    "vue": "^3.0.0-beta.10",
+    "vue-redux-tools": "^1.0.0"
   },
   "devDependencies": {
-    "@vue/test-utils": "^2.0.0-alpha.6",
-    "vue-jest": "^3.0.5",
-    "ts-jest": "^26.0.0",
-    "jest": "^26.0.1",
     "@types/jest": "^25.2.3",
     "@vue/compiler-sfc": "^3.0.0-beta.10",
+    "@vue/test-utils": "^2.0.0-alpha.6",
     "cucumber": "^6.0.5",
     "cucumber-pretty": "^6.0.0",
-    "expect": "^25.1.0"
+    "expect": "^25.1.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "vue-jest": "^3.0.5"
   },
   "jest": {
     "moduleFileExtensions": [

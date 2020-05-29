@@ -12,7 +12,6 @@
 <script lang="ts">
   import Loader from "../Loader.vue";
   import {fetchThingsList} from "./thingList";
-  import {provide, watchEffect, ref, inject } from 'vue'
 
   export default {
       components: {
