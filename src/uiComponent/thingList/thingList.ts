@@ -1,6 +1,6 @@
 import {getThingsSelector} from "./selector";
 import {retrieveThings} from "../../useCases/thingsRetrieval";
-import { useDispatch, useSelector } from 'vue-redux-tools';
+import { useDispatch, useSelector } from 'vue-redux-composable';
 import {onMounted} from 'vue';
 
 export const fetchThingsList = () => {
