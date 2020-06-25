@@ -1,8 +1,7 @@
 {
-  "author": "cjumelin@protonmail.com",
   "name": "Vuejs3-Vite-Redux-starter",
-  "private": true,
-  "version": "1.0.0",
+  "author": "Clément Jumelin <cjumelin@protonmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "debug": "vite --debug",
@@ -18,7 +17,7 @@
     "typescript": "^3.9.3",
     "vite": "^0.15.3",
     "vue": "^3.0.0-beta.10",
-    "vue-redux-tools": "^1.0.0"
+    "vue-redux-composable": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^25.2.3",
