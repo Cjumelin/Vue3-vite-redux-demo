@@ -1,4 +1,4 @@
-# # Vue3 + Vuejs/vite + Redux starter
+# Vue3 + Vuejs/vite + Redux starter
 
   ## Command
 
